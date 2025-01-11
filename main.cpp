@@ -1,12 +1,3 @@
-// Ausgabe von Integern: Nur im 16-bit Raum
-// Änderung: "%ld" statt "%u"
-
-// Ausgabe von Floats: "?"
-// Änderung: dtostrf() statt sprintf(), weil sprintf auf microcontrollern kein "%f" unterstützt
-
-// Memory probleme
-
-
 #include <Arduino.h>
 #include "keyboard.h"
 #include "display.h"
