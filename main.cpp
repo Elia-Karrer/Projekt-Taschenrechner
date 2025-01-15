@@ -108,9 +108,8 @@ void loop(void)
         }
         else
         {
-            display.print("Result = \"");
+            display.print("Result = ");
             display.print(output);
-            display.print("\"");
         }
         display.display();
         
